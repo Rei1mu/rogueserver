@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Build and publish to GHCR
-    if: github.repository == 'pagefaultgames/rogueserver'
+    if: github.repository == 'rei1mu/rogueserver'
     env:
       GO_VERSION: 1.22
     runs-on: ubuntu-latest
