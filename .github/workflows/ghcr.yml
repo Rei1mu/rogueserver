@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    name: Build and publish to GHCR
+    name: Build and publish to GHCR 
     if: github.repository == 'rei1mu/rogueserver'
     env:
       GO_VERSION: 1.22
